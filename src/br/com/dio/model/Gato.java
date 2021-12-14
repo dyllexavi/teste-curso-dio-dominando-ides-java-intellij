@@ -2,6 +2,9 @@ package br.com.dio.model;
 
 import java.util.Objects;
 
+/**
+ *
+ */
 public class Gato {
     private String nome;
     private String cor;
@@ -35,10 +38,19 @@ public class Gato {
         return idade;
     }
 
+    /**
+     *
+     * @param idade O usuario tem que informa a idade.
+     */
     public void setIdade(Integer idade) {
         this.idade = idade;
     }
 
+    /**
+     *
+     * @param o
+     * @return
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

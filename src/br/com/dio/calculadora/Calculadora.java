@@ -2,6 +2,10 @@ package br.com.dio.calculadora;
 
 import java.util.Scanner;
 
+/**
+ * @author Dyllehyrton Xavier
+ * @version 1.0.0
+ */
 public class Calculadora {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -25,6 +29,12 @@ public class Calculadora {
 
     }
 
+    /**
+     *
+     * @param a Valor da variável a
+     * @param b Valor da variável b
+     * @return Passa o valor de acordo com o calculo feito sistema
+     */
     public static int somar(int a, int b){
         return a + b;
 
